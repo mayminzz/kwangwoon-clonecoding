@@ -1,0 +1,323 @@
+{
+  "newBook": [
+    {
+      "index": 0,
+      "img": "./img/1_book1.jpeg",
+      "alt": "기획자의 탄생 : 회사원이 될 것인가, 기획자가 될 것인가?",
+      "title": "기획자의 탄생 : 회사원이 될 것인가, 기획자가 될 것인가?",
+      "writer": "박준서"
+    },
+    {
+      "index": 1,
+      "img": "./img/1_book2.jpeg",
+      "alt": "레버리지 서클 : 젠트리피케이션을 해결하는 새 비즈니스 세계관 = Leverage circle",
+      "title": "레버리지 서클 : 젠트리피케이션을 해결하는 새 비즈니스 세계관 = Leverage circle",
+      "writer": "강호동"
+    },
+    {
+      "index": 2,
+      "img": "./img/1_book3.jpeg",
+      "alt": "Amorphous Oxide Semiconductors - IGZO and Related Materials for Display and Memory",
+      "title": "기획자의 탄생 : 회사원이 될 것인가, 기획자가 될 것인가?",
+      "writer": "Hideo Hosono"
+    },
+    {
+      "index": 3,
+      "img": "./img/1_book4.jpeg",
+      "alt": "유전공학의 상상은 현실이 된다",
+      "title": "유전공학의 상상은 현실이 된다",
+      "writer": "예병일"
+    },
+    {
+      "index": 4,
+      "img": "./img/1_book5.jpeg",
+      "alt": "어텐션 : 주목하는 모든 것은 현실이 된다! = Attention",
+      "title": "어텐션 : 주목하는 모든 것은 현실이 된다! = Attention",
+      "writer": "이은대"
+    },
+    {
+      "index": 5,
+      "img": "./img/1_book6.jpeg",
+      "alt": "인공지능시대, 그리스도인이 꼭 알아야 할 28가지 질문",
+      "title": "인공지능시대, 그리스도인이 꼭 알아야 할 28가지 질문",
+      "writer": "장보철"
+    },
+    {
+      "index": 6,
+      "img": "./img/1_book7.jpeg",
+      "alt": "관계인구의 사회학 : 인구감소 시대의 지역재생",
+      "title": "관계인구의 사회학 : 인구감소 시대의 지역재생",
+      "writer": "전중휘미(田中輝美)"
+    },
+    {
+      "index": 7,
+      "img": "./img/1_book8.jpeg",
+      "alt": "인베스트먼트 언리미티드 : 가상의 금융 기업을 통해 이해하는 DevSecOps와 IT 거버넌스",
+      "title": "인베스트먼트 언리미티드 : 가상의 금융 기업을 통해 이해하는 DevSecOps와 IT 거버넌스",
+      "writer": "Beal, Helen"
+    },
+    {
+      "index": 8,
+      "img": "./img/1_book9.jpeg",
+      "alt": "일본 도쿄 백년 맛집 탐구생활 : 일본 로컬 맛집",
+      "title": "일본 도쿄 백년 맛집 탐구생활 : 일본 로컬 맛집",
+      "writer": "김성수"
+    },
+    {
+      "index": 9,
+      "img": "./img/1_book10.jpeg",
+      "alt": "세무회계의 기초 = Introduction to tax 제7판",
+      "title": "세무회계의 기초 = Introduction to tax 제7판",
+      "writer": "김영"
+    },
+    {
+      "index": 10,
+      "img": "./img/1_book11.jpeg",
+      "alt": "감정평가사 거시경제학 마인드 = Macro economics mind",
+      "title": "감정평가사 거시경제학 마인드 = Macro economics mind",
+      "writer": "윤지훈"
+    },
+    {
+      "index": 11,
+      "img": "./img/1_book12.jpeg",
+      "alt": "사람을 움직이는 1%의 차이 : 40년 인사쟁이 백진기가 말하는 사람, 일 그리고 성장",
+      "title": "사람을 움직이는 1%의 차이 : 40년 인사쟁이 백진기가 말하는 사람, 일 그리고 성장",
+      "writer": "백진기"
+    },
+    {
+      "index": 12,
+      "img": "./img/1_book13.jpeg",
+      "alt": "오픈 포커스 브레인 : 원하는 삶을 창조하는 주의력 사용법 [실은2판]",
+      "title": "오픈 포커스 브레인 : 원하는 삶을 창조하는 주의력 사용법 [실은2판]",
+      "writer": "Fehmi, Les"
+    },
+    {
+      "index": 13,
+      "img": "./img/1_book14.jpeg",
+      "alt": "(AI시대의 코딩 스타트) ChatGPT와 함께하는 파이썬 입문 = Introduction to Python with ChatGPT",
+      "title": "(AI시대의 코딩 스타트) ChatGPT와 함께하는 파이썬 입문 = Introduction to Python with ChatGPT",
+      "writer": "홍석우"
+    },
+    {
+      "index": 14,
+      "img": "./img/1_book15.jpeg",
+      "alt": "보여주기 : 세상을 내 편으로 삼는 법",
+      "title": "보여주기 : 세상을 내 편으로 삼는 법",
+      "writer": "오후"
+    }
+  ],
+  "popularBook": [
+    {
+      "index": 0,
+      "img": "./img/P_book1.jpeg",
+      "alt": "popular_book1",
+      "title": "생각의 탄생",
+      "writer": "Root-Bernstein, Robert"
+    },
+    {
+      "index": 1,
+      "img": "./img/P_book2.jpeg",
+      "alt": "popular_book2",
+      "title": "삼체 = The three body [개정판(2판)]",
+      "writer": "류자흔(劉慈欣)"
+    },
+    {
+      "index": 2,
+      "img": "./img/P_book3.jpeg",
+      "alt": "popular_book3",
+      "title": "고체전자공학",
+      "writer": "Streetman, Ben G"
+    },
+    {
+      "index": 3,
+      "img": "./img/P_book4.jpeg",
+      "alt": "popular_book4",
+      "title": "(2024 시나공) 컴퓨터활용능력 : 1급 필기 = The written examination for advanced computer proficiency certificate",
+      "writer": "길벗알앤디"
+    },
+    {
+      "index": 4,
+      "img": "./img/P_book5.jpeg",
+      "alt": "popular_book5",
+      "title": "불편한 편의점 : 김호연 장편소설",
+      "writer": "김호연"
+    },
+    {
+      "index": 5,
+      "img": "./img/P_book6.jpeg",
+      "alt": "popular_book6",
+      "title": "구의 증명 : 최진영 소설",
+      "writer": "최진영"
+    },
+    {
+      "index": 6,
+      "img": "./img/P_book7.jpeg",
+      "alt": "popular_book7",
+      "title": "(윤성우의 열혈) C 프로그래밍 / 개정판[실은2판]",
+      "writer": "윤성우"
+    },
+    {
+      "index": 7,
+      "img": "./img/P_book8.jpeg",
+      "alt": "popular_book8",
+      "title": "물고기는 존재하지 않는다 : 상실, 사랑 그리고 숨어 있는 삶의 질서에 관한 이야기",
+      "writer": "Miller, Lulu"
+    },
+    {
+      "index": 8,
+      "img": "./img/P_book9.jpeg",
+      "alt": "popular_book9",
+      "title": "삼체 = The three body [개정판(2판)]",
+      "writer": "류자흔(劉慈欣)"
+    },
+    {
+      "index": 9,
+      "img": "./img/P_book10.jpeg",
+      "alt": "popular_book10",
+      "title": "컴퓨터 구조 및 설계 : 하드웨어/소프트웨어 인터페이스",
+      "writer": "Patterson, David A"
+    },
+    {
+      "index": 10,
+      "img": "./img/P_book11.jpeg",
+      "alt": "popular_book11",
+      "title": "화학공학 열역학",
+      "writer": "Smith, J. M"
+    },
+    {
+      "index": 11,
+      "img": "./img/P_book12.jpeg",
+      "alt": "popular_book12",
+      "title": "마이크로전자회로 ;제6판.",
+      "writer": "Sedra, Adel S"
+    },
+    {
+      "index": 12,
+      "img": "./img/P_book13.jpeg",
+      "alt": "popular_book13",
+      "title": "삼체 = The three body [개정판(2판)]",
+      "writer": "류자흔(劉慈欣)"
+    },
+    {
+      "index": 13,
+      "img": "./img/P_book14.jpeg",
+      "alt": "popular_book14",
+      "title": "구의 증명 : 최진영 소설",
+      "writer": "최진영"
+    },
+    {
+      "index": 14,
+      "img": "./img/P_book15.jpeg",
+      "alt": "popular_book15",
+      "title": "범죄도시 = The outlaws / [비디오녹화자료]",
+      "writer": "강윤성"
+    }
+  ],
+  "ebook": [
+    {
+      "index": 0,
+      "img": "./img/E-book1.jpeg",
+      "alt": "popular_book1",
+      "title": "(개발자를 위한)챗GPT 활용법 [전자책]",
+      "writer": "오현석"
+    },
+    {
+      "index": 1,
+      "img": "./img/E-book2.jpeg",
+      "alt": "popular_book1",
+      "title": "라즈베리파이 피코, 마이크로파이썬을 만나다 = Raspberry Pi Pico + MicroPython / [전자책]",
+      "writer": "허경용"
+    },
+    {
+      "index": 2,
+      "img": "./img/E-book3.jpeg",
+      "alt": "popular_book1",
+      "title": "(진짜 쓰는)실무 엑셀 : 유튜브 대표 엑셀 채널, 오빠두가 알려 주는 엑셀 함수, 보고서 작성, 데이터 분석 노하우! / [전자책]",
+      "writer": "오빠두"
+    },
+    {
+      "index": 3,
+      "img": "./img/E-book4.jpeg",
+      "alt": "popular_book1",
+      "title": "이것이 리눅스다 : with Rocky Linux 9 / [전자책]: 3판",
+      "writer": "우재남"
+    },
+    {
+      "index": 4,
+      "img": "./img/E-book5.jpeg",
+      "alt": "popular_book1",
+      "title": "게임 전쟁 : 게임 패권 다툼 그리고 위대한 콘솔의 탄생 / [전자책]",
+      "writer": "Kent, Steve L"
+    },
+    {
+      "index": 5,
+      "img": "./img/E-book6.jpeg",
+      "alt": "popular_book1",
+      "title": "(누구나 할 수 있는)유니티 2D 게임 제작 : 유니티를 몰라도 따라 하면서 즐겁게 익히는 레트로풍 2D 게임 제작 / [전자책]",
+      "writer": "STUDIO SHIN"
+    },
+    {
+      "index": 6,
+      "img": "./img/E-book7.jpeg",
+      "alt": "popular_book1",
+      "title": "(유니티로 배우는 게임 디자인 패턴 : 소프트웨어 디자인 패턴과 모범 사례로 익히는 실용적 게임 개발법 / [전자책]",
+      "writer": "Baron, David"
+    },
+    {
+      "index": 7,
+      "img": "./img/E-book8.jpeg",
+      "alt": "popular_book1",
+      "title": "인생 맥스 & 언리얼 교과서 [전자책]",
+      "writer": "박현상"
+    },
+    {
+      "index": 8,
+      "img": "./img/E-book9.jpeg",
+      "alt": "popular_book1",
+      "title": "데이터 품질의 비밀 : 데이터 신뢰를 쌓는 데이터옵스의 핵심과 엔드 투 엔드 단계별 가이드 / [전자책]",
+      "writer": "Moses, Barr"
+    },
+    {
+      "index": 9,
+      "img": "./img/E-book10.jpeg",
+      "alt": "popular_book1",
+      "title": "실용 SQL : PostgreSQL로 시작하는 데이터 스토리텔링 가이드북 / [전자책]",
+      "writer": "DeBarros, Anthony"
+    },
+    {
+      "index": 10,
+      "img": "./img/E-book11.jpeg",
+      "alt": "popular_book1",
+      "title": "(누구나 쉽게 디자인으로 돈 벌게 해주는)캔바(Canva) : 디지털 노마드, N잡러들의 필독서 / [전자책]",
+      "writer": "이은희"
+    },
+    {
+      "index": 11,
+      "img": "./img/E-book12.jpeg",
+      "alt": "popular_book1",
+      "title": "MLOps 실전 가이드 [전자책]",
+      "writer": "Gift, Noah"
+    },
+    {
+      "index": 12,
+      "img": "./img/E-book13.jpeg",
+      "alt": "popular_book1",
+      "title": "(개발자를 위한)챗GPT 활용법 [전자책]",
+      "writer": "오현석"
+    },
+    {
+      "index": 13,
+      "img": "./img/E-book14.jpeg",
+      "alt": "popular_book1",
+      "title": "(피그마로 시작하는)UI 디자인 [전자책]",
+      "writer": "피그마 튜터"
+    },
+    {
+      "index": 14,
+      "img": "./img/E-book15.jpeg",
+      "alt": "popular_book1",
+      "title": "실용 SQL : PostgreSQL로 시작하는 데이터 스토리텔링 가이드북 / [전자책]",
+      "writer": "DeBarros, Anthony"
+    }
+  ]
+}

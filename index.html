@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+    <!-- fontawesome -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/bd0a8925a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- slick slider  -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script
+      defer
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script defer type="text/javascript" src="slick/slick.min.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="header_inner">
+          <div class="header_top">
+            <div class="header_top_wrapper">
+              <div class="logo">
+                <a href="#">
+                  <img src="./img/kwangwoon_logo.png" alt="kwangwoon_logo" />
+                </a>
+              </div>
+              <ul class="global_menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#" class="gwangwoon">광운대학교</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="header_bot">
+            <div class="header_bot_wrapper">
+              <ul class="top_menu">
+                <div class="mobile_object">
+                  <button class="login"><a href="">Login</a></button>
+                  <button class="close">
+                    <i class="fas fa-x"></i>
+                  </button>
+                </div>
+                <li>
+                  <a href="">자료검색</a>
+                  <div class="detail_menu_wrapper">
+                    <div class="detail_menu_box">
+                      <div class="menu_desc">
+                        <h1>자료검색</h1>
+                        <p>
+                          도서관 소장자료 및 학술전자자료의 검색과 원문 이용이
+                          가능합니다.
+                        </p>
+                        <div class="detail_menu_img">
+                          <img src="./img/menu1_icon.png" alt="menu1_icon" />
+                        </div>
+                      </div>
+                      <div class="detail_menu_list_box">
+                        <div class="detail_menu_list">
+                          <h3>통합검색</h3>
+                          <ul>
+                            <li>통합검색</li>
+                            <li>소장자료검색</li>
+                            <li>전자자료검색</li>
+                            <li>외부기관검색(Open API)</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>소장자료</h3>
+                          <ul>
+                            <li>단행본</li>
+                            <li>연속간행물</li>
+                            <li>학위논문</li>
+                            <li>멀티미디어</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>전자자료</h3>
+                          <ul>
+                            <li>웹DB</li>
+                            <li>e-Journal</li>
+                            <li>교외접속/전자자료 공정이용</li>
+                            <li>e-Book</li>
+                            <li>e-Learning</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>컬렉션</h3>
+                          <ul>
+                            <li>우수학술도서</li>
+                            <li>독서클럽도서</li>
+                            <li>교수저서</li>
+                            <li>문학상(교외/해외)</li>
+                            <li>New E-Book</li>
+                            <li>취업자료</li>
+                            <li>신착자료</li>
+                            <li>인기도서</li>
+                            <li>이용자서평</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="">연구학습지원</a>
+                  <div class="detail_menu_wrapper">
+                    <div class="detail_menu_box">
+                      <div class="menu_desc">
+                        <h1>연구학습지원</h1>
+                        <p>
+                          연구학습지원을 위한 다양한 서비스 및
+                          학술정보활용교육에 관한 정보를 확인할 수 있습니다.
+                        </p>
+                        <div class="detail_menu_img">
+                          <img src="./img/menu2_icon.png" alt="menu2_icon" />
+                        </div>
+                      </div>
+                      <div class="detail_menu_list_box">
+                        <div class="detail_menu_list">
+                          <h3>학술정보활용교육</h3>
+                          <ul>
+                            <li>교육안내</li>
+                            <li>교육신청</li>
+                            <li>신청확인</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>학술정보큐레이션</h3>
+                          <ul>
+                            <li>학술연구정보서비스(SICS)</li>
+                            <li>국내외 학위논문 이용</li>
+                            <li>연구 지원 강의(KOCW)</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>논문작성가이드</h3>
+                          <ul>
+                            <li>논문작성가이드</li>
+                            <li>오픈 엑세스 출판 지원</li>
+                            <li>표절예방 및 연구윤리</li>
+                            <li>연구평가도구</li>
+                            <li>학위논문 제출</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>지정도서</h3>
+                          <ul>
+                            <li>학과별 지정도서 안내</li>
+                            <li>학과별 지정도서 검색</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="">서비스</a>
+                  <div class="detail_menu_wrapper">
+                    <div class="detail_menu_box">
+                      <div class="menu_desc">
+                        <h1>서비스</h1>
+                        <p>
+                          도서관 자료이용을 위한 안내와 시설내용에 대한 신청이
+                          가능합니다.
+                        </p>
+                        <div class="detail_menu_img">
+                          <img src="./img/menu3_icon.png" alt="menu3_icon" />
+                        </div>
+                      </div>
+                      <div class="detail_menu_list_box">
+                        <div class="detail_menu_list">
+                          <h3>자료이용</h3>
+                          <ul>
+                            <li>희망도서신청</li>
+                            <li>타 대학 자료대출 서비스</li>
+                            <li>원문복사 서비스</li>
+                            <li>대충자료 배달 서비스</li>
+                            <li>업무시간 외 대출 서비스</li>
+                            <li>서가에 없는 도서 찾기</li>
+                            <li>신착자료 알림 서비스</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>시설이용</h3>
+                          <ul>
+                            <li>타 기관 열람 의뢰서</li>
+                            <li>서동도협 출입증 발급 신청</li>
+                            <li>그룹스터디룸(집현전)</li>
+                            <li>모바일 이용증</li>
+                            <li>복사/인쇄/팩스</li>
+                            <li>유/무선 인터넷</li>
+                            <li>U서비스시스템</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="">도서관 안내</a>
+                  <div class="detail_menu_wrapper">
+                    <div class="detail_menu_box">
+                      <div class="menu_desc">
+                        <h1>도서관 안내</h1>
+                        <p>
+                          도서관 소개와 서비스에 대한 이용방법을 확인할 수
+                          있습니다.
+                        </p>
+                        <div class="detail_menu_img">
+                          <img src="./img/menu4_icon.png" alt="menu4_icon" />
+                        </div>
+                      </div>
+                      <div class="detail_menu_list_box">
+                        <div class="detail_menu_list">
+                          <h3>도서관 소개</h3>
+                          <ul>
+                            <li>개요/연혁</li>
+                            <li>규정</li>
+                            <li>조직</li>
+                            <li>역대관장</li>
+                            <li>도서관 갤러리</li>
+                            <li>도서관 안내책자</li>
+                            <li>도서관 통계</li>
+                            <li>찾아오시는 길</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>도서관 이용안내</h3>
+                          <ul>
+                            <li>도서관 일정</li>
+                            <li>층별안내/이용시간</li>
+                            <li>대출/반납/연장/예약</li>
+                            <li>연체/분실변상</li>
+                            <li>이용자별 서비스</li>
+                            <li>방문/견학/촬영 안내</li>
+                            <li>장애인 지원 안내</li>
+                            <li>자료 기증 안내</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>게시판</h3>
+                          <ul>
+                            <li>공지사항</li>
+                            <li>FAQ</li>
+                            <li>문의 및 건의하기</li>
+                            <li>분실물 찾기</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="">나의 도서관</a>
+                  <div class="detail_menu_wrapper">
+                    <div class="detail_menu_box">
+                      <div class="menu_desc">
+                        <h1>나의 도서관</h1>
+                        <p>
+                          로그인 후 개인별 서비스 신청현황 및 개인정보
+                          확인/수정이 가능합니다.
+                        </p>
+                        <div class="detail_menu_img">
+                          <img src="./img/menu5_icon.png" alt="menu5_icon" />
+                        </div>
+                      </div>
+                      <div class="detail_menu_list_box">
+                        <div class="detail_menu_list">
+                          <h3>자료이용</h3>
+                          <ul>
+                            <li>대출현황 조회/연장</li>
+                            <li>예약현황 조회/취소</li>
+                            <li>희망도서</li>
+                            <li>타 대학 자료대출</li>
+                            <li>원문복사</li>
+                            <li>대출자료 배달</li>
+                            <li>업무시간 외 대출</li>
+                            <li>보존서고 도서 신청</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>개인화서비스</h3>
+                          <ul>
+                            <li>나의 통계</li>
+                            <li>AI 큐레이션</li>
+                            <li>나의 서재</li>
+                            <li>나의 서평</li>
+                            <li>나의 마일리지</li>
+                          </ul>
+                        </div>
+                        <div class="detail_menu_list">
+                          <h3>내정보</h3>
+                          <ul>
+                            <li>개인공지사항</li>
+                            <li>개인정보관리</li>
+                            <li>ID/PW 찾기</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="whole_menu_btn"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="content1">
+        <div class="inner">
+          <div class="search">
+            <ul class="search_form">
+              <li class="on">
+                <a href="#">통합검색</a>
+                <form action="library/search">
+                  <input id="search_icon" type="image" src="./img/search.png" />
+                  <input
+                    type="text"
+                    placeholder="찾고싶은 검색 키워드를 입력해주세요."
+                  />
+                  <input type="submit" value="search" />
+                </form>
+              </li>
+              <li><a href="#">소장자료</a></li>
+              <li><a href="#">전자자료</a></li>
+            </ul>
+          </div>
+          <div class="quick_menu">
+            <ul class="quick_menu_list">
+              <li>
+                <a href="#">
+                  <img src="./img/menu1.png" alt="menu1" />
+                  <span>대출현황/연장</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/menu2.png" alt="menu2" />
+                  <span>희망도서신청</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/menu3.png" alt="menu3" />
+                  <span>학술DB</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/menu4.png" alt="menu4" />
+                  <span>전자책/오디오북</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/menu5.png" alt="menu5" />
+                  <span>학위논문 이용/제출</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/menu6.png" alt="menu6" />
+                  <span>모바일 이용증</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./img/menu7.png" alt="menu7" />
+                  <span>리딩리딩</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="info_content">
+            <div class="notice">
+              <div class="title">
+                <h2>일반공지</h2>
+                <a href="#">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+              <ul class="infoList">
+                <li>
+                  <a href="#">
+                    <span>
+                      WILEY 2024년 상반기 KERIS 대학라이선스 퀴즈 이벤트
+                    </span>
+                  </a>
+                  <p>2024.05.16</p>
+                </li>
+                <li>
+                  <a href=""><span>ACS Publications Quiz Event</span></a>
+                  <p>2024.05.08</p>
+                </li>
+                <li>
+                  <a href=""
+                    ><span
+                      >[대학혁신지원사업] 2024-1 밤샘 책읽기 행사 안내
+                    </span></a
+                  >
+                  <p>2024.05.01</p>
+                </li>
+                <li>
+                  <a href=""><span>PressReader 퀴즈 이벤트</span></a>
+                  <p>2024.04.24</p>
+                </li>
+              </ul>
+            </div>
+            <div class="schedule">
+              <div class="title">
+                <h2>교육/학술정보</h2>
+                <a href="#">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+              <ul class="infoList">
+                <li>
+                  <a href="#"><span>RefWorks DB 이용교육(2024.06)</span></a>
+                  <p>2024.05.16</p>
+                </li>
+                <li>
+                  <a href=""><span>ValueSearch 활용 교육 안</span></a>
+                  <p>2024.05.16</p>
+                </li>
+                <li>
+                  <a href=""
+                    ><span
+                      >SCI 등재 저자를 피어리뷰어로 활용 및 효율적인 투고
+                      프로세스 관리 교육안</span
+                    ></a
+                  >
+                  <p>2024.05.08</p>
+                </li>
+                <li>
+                  <a href=""><span>KISS DB 이용교육 안내(2024.05) </span></a>
+                  <p>2024.05.07</p>
+                </li>
+              </ul>
+            </div>
+            <div class="eventZone">
+              <div class="eventZone_inner">
+                <ul>
+                  <li class="slider event1" data-index="0">
+                    <img src="./img/event1.jpeg" alt="event1" />
+                  </li>
+                  <li class="slider event2" data-index="1">
+                    <img src="./img/event2.jpeg" alt="event2" />
+                  </li>
+                </ul>
+              </div>
+              <div class="event_slide_handler">
+                <button class="prev_btn">
+                  <i class="fas fa-angle-left"></i>
+                </button>
+                <div class="page_nums">
+                  <span class="current_page page1 active" data-index="0"
+                    >1</span
+                  >
+                  <span class="current_page page2" data-index="1">2</span>
+                  <span class="total">/2</span>
+                </div>
+                <button class="next_btn">
+                  <i class="fas fa-angle-right"></i>
+                </button>
+                <button class="pause">
+                  <i class="fas fa-pause"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="scroll">
+            <a>
+              <span class="scroll_line"></span>
+              <img src="./img/scroll.png" alt="scroll" />
+              <span class="scroll_txt">scroll</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="content2">
+        <h2>library Guide</h2>
+        <div class="inner">
+          <div class="guide_content">
+            <div class="calender_wrapper">
+              <div class="tit_content">
+                <h3>행사 및 휴관</h3>
+                <div class="date_handler">
+                  <a href="" class="prev">
+                    <i class="fas fa-angle-left"></i>
+                  </a>
+                  <div class="date">
+                    <span class="year">2024.</span>
+                    <span class="month">05</span>
+                  </div>
+                  <a href="" class="next">
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <a href="" class="more">
+                    <i class="fas fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="calender_table">
+                <table>
+                  <thead>
+                    <tr class="header_days">
+                      <th class="header_day weekend1">일</th>
+                      <th class="header_day">월</th>
+                      <th class="header_day">화</th>
+                      <th class="header_day">수</th>
+                      <th class="header_day">목</th>
+                      <th class="header_day">금</th>
+                      <th class="header_day weekend2">토</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="weekend1 opacity"><span>28</span></td>
+                      <td class="opacity"><span>29</span></td>
+                      <td class="opacity"><span>30</span></td>
+                      <td><span>1</span></td>
+                      <td><span>2</span></td>
+                      <td class="event_day"><span>3</span></td>
+                      <td class="weekend2"><span>4</span></td>
+                    </tr>
+                    <tr>
+                      <td class="weekend1 closed"><span>5</span></td>
+                      <td class="closed"><span>6</span></td>
+                      <td><span>7</span></td>
+                      <td><span>8</span></td>
+                      <td><span>9</span></td>
+                      <td><span>10</span></td>
+                      <td class="weekend2"><span>11</span></td>
+                    </tr>
+                    <tr>
+                      <td class="weekend1 closed"><span>12</span></td>
+                      <td><span>13</span></td>
+                      <td><span>14</span></td>
+                      <td class="closed"><span>15</span></td>
+                      <td><span>16</span></td>
+                      <td><span>17</span></td>
+                      <td class="weekend2"><span>18</span></td>
+                    </tr>
+                    <tr>
+                      <td class="weekend1 closed"><span>19</span></td>
+                      <td><span>20</span></td>
+                      <td class="today"><span>21</span></td>
+                      <td><span>22</span></td>
+                      <td><span>23</span></td>
+                      <td><span>24</span></td>
+                      <td class="weekend2"><span>25</span></td>
+                    </tr>
+                    <tr>
+                      <td class="weekend1 closed"><span>26</span></td>
+                      <td><span>27</span></td>
+                      <td><span>28</span></td>
+                      <td><span>29</span></td>
+                      <td><span>30</span></td>
+                      <td><span>31</span></td>
+                      <td class="weekend2 opacity"><span>1</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <ul class="calender_mark">
+                <li class="today_mark"><span>오늘</span></li>
+                <li class="event_mark"><span>행사</span></li>
+                <li class="closed_mark"><span>휴관</span></li>
+                <li class="today_closed_mark"><span>오늘+행사</span></li>
+              </ul>
+            </div>
+            <div class="time_wrapper">
+              <div class="tit_content">
+                <h3>도서관 이용 시간(학기 중)</h3>
+                <a href="">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+              <div class="time_table">
+                <li class="head_title">
+                  <div class="name">실명</div>
+                  <div class="time">이용시간</div>
+                </li>
+                <li class="body_list">
+                  <div class="name">
+                    <ul>
+                      <li>인문과학자료실(L층)</li>
+                      <li>자연과학자료실(1층)</li>
+                    </ul>
+                  </div>
+                  <div class="time">
+                    <ul>
+                      <li>
+                        <span class="on">평일</span>
+                        <p>9:00 ~ 22:00</p>
+                      </li>
+                      <li>
+                        <span class="on">토요일</span>
+                        <p>9:00 ~ 12:00</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="body_list">
+                  <div class="name">
+                    <ul>
+                      <li>오픈열람실(1층)</li>
+                      <li>제1자유열람실(층)</li>
+                    </ul>
+                  </div>
+                  <div class="time">
+                    <ul>
+                      <li>
+                        <span class="off">연중무휴</span>
+                        <p>06:00 ~ 23:00</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="body_list">
+                  <div class="name">
+                    <ul>
+                      <li>제2 3자유열람실(L층)</li>
+                    </ul>
+                  </div>
+                  <div class="time">
+                    <ul>
+                      <li>
+                        <span class="off">연중무휴</span>
+                        <p>24시간 운영</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="body_list">
+                  <div class="name">
+                    <ul>
+                      <li>그룹스터디룸(집현전)(1층)</li>
+                    </ul>
+                  </div>
+                  <div class="time">
+                    <ul>
+                      <li>
+                        <span class="off">연중무휴</span>
+                        <p>09:00 ~ 23:00</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </div>
+            </div>
+            <div class="seat_wrapper">
+              <div class="tit_content">
+                <h3>열람좌석 현황</h3>
+                <a href="">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+              <div class="seat_table">
+                <table>
+                  <colgroup>
+                    <col />
+                    <col />
+                    <col />
+                    <col />
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th>열람실 명</th>
+                      <th>전체</th>
+                      <th>잔여</th>
+                      <th>사용률</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="">제1자유열람실</a></td>
+                      <td>122</td>
+                      <td class="point">72</td>
+                      <td>40.98%</td>
+                    </tr>
+                    <tr>
+                      <td><a href="">제2자유열람실</a></td>
+                      <td>211</td>
+                      <td class="point">109</td>
+                      <td>48.34%</td>
+                    </tr>
+                    <tr>
+                      <td><a href="">제3자유열람실</a></td>
+                      <td>165</td>
+                      <td class="point">84</td>
+                      <td>49.09%</td>
+                    </tr>
+                    <tr>
+                      <td>제4자유열람실</td>
+                      <td class="point free_seat" colspan="3">자율배석</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="seat_caution">
+                  <p>
+                    열람좌석은 실시간으로 변경될 수 있습니다. 반드시 확인 후
+                    사용 부탁드립니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="user_service">
+            <span>이용자별 서비스</span>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="./img/user01.png" alt="user01" /><span
+                    >학부생</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/user02.png" alt="user02" /><span
+                    >대학원생</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/user03.png" alt="user03" /><span
+                    >교원</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/user04.png" alt="user04" /><span
+                    >직원</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/user05.png" alt="user05" /><span
+                    >정보과학교육원생</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/user06.png" alt="user06" /><span
+                    >휴학생 및 졸업생</span
+                  ></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./img/user07.png" alt="user07" /><span
+                    >기타</span
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="content3">
+        <div class="collection_wrapper">
+          <div class="collection_contents">
+            <div class="tit_content">
+              <h2>KW Collection</h2>
+            </div>
+            <ul class="book_contents">
+              <li>
+                <a class="on" href="">신착도서</a>
+                <div class="book_list_wrapper">
+                  <ul class="book_list_slides"></ul>
+                </div>
+              </li>
+              <li>
+                <a href="">인기도서</a>
+                <div class="book_list_wrapper">
+                  <ul class="book_list_slides"></ul>
+                </div>
+              </li>
+              <li>
+                <a href="">NEW E-Book</a>
+                <div class="book_list_wrapper">
+                  <ul class="book_list_slides"></ul>
+                </div>
+              </li>
+            </ul>
+            <div class="book_controller">
+              <button class="book_slide_prev">
+                <i class="fas fa-angle-left"></i>
+              </button>
+              <button class="book_slide_pause">
+                <img src="./img/pause.png" alt="pause" />
+              </button>
+              <button class="book_slide_next">
+                <i class="fas fa-angle-right"></i>
+              </button>
+              <button class="book_slide_more">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+          </div>
+          <div class="banner">
+            <div class="banner_inner">
+              <div class="banner_wrapper">
+                <div class="banner_controller">
+                  <button class="banner_prev"></button>
+                  <button class="banner_pause"></button>
+                  <button class="banner_next"></button>
+                </div>
+                <ul class="banner_slider">
+                  <div class="banner_slide_inner">
+                    <div>
+                      <li class="banner_slide">
+                        <a href="">
+                          <img src="./img/banner1.png" alt="DBpia" />
+                        </a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner2.png" alt="kiss"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner3.png" alt="earticle"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner4.png" alt="스콜라  "
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner5.png" alt="science Direct"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner6.png" alt="wiley"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner7.png" alt="IEEE"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner8.png" alt="web of science"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img
+                            src="./img/banner9.png"
+                            alt="Journal Citation Reports"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner10.png" alt="nature"
+                        /></a>
+                      </li>
+                      <li class="banner_slide">
+                        <a href=""
+                          ><img src="./img/banner11.png" alt="EBSCOhost"
+                        /></a>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer_link">
+          <div class="footer_link_inner">
+            <div class="sitemap">
+              <span>사이트맵</span>
+              <div class="sitemap_menu_wrapper">
+                <ul>
+                  <li>
+                    <a class="sitemap_title" href="">자료검색</a>
+                    <ul>
+                      <li>
+                        <a href="">통합검색</a>
+                        <ul>
+                          <li><a href="">통합검색</a></li>
+                          <li><a href="">소장자료검색</a></li>
+                          <li><a href="">전자자료검색</a></li>
+                          <li><a href="">외부기관검색(OpenAPI)</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">소장자료</a>
+                        <ul>
+                          <li><a href="">단행본</a></li>
+                          <li><a href="">연속간행물</a></li>
+                          <li><a href="">학위논문</a></li>
+                          <li><a href="">멀티미디어</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">전자자료</a>
+                        <ul>
+                          <li><a href="">웹DB</a></li>
+                          <li><a href="">e-journal</a></li>
+                          <li><a href="">교외접속/전자자료 공정이용</a></li>
+                          <li><a href="">e-Book</a></li>
+                          <li><a href="">e-Learning</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">컬렉션</a>
+                        <ul>
+                          <li><a href="">우수학술도서</a></li>
+                          <li><a href="">독서클럽도서</a></li>
+                          <li><a href="">교수저서</a></li>
+                          <li><a href="">문학상(국내/해외)</a></li>
+                          <li><a href="">New E-Book</a></li>
+                          <li><a href="">취업자료</a></li>
+                          <li><a href="">신착자료</a></li>
+                          <li><a href="">인기도서</a></li>
+                          <li><a href="">이용자서평</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="sitemap_title" href="">연구학습지원</a>
+                    <ul>
+                      <li>
+                        <a href="">학술정보활용교육</a>
+                        <ul>
+                          <li><a href="">교육안내</a></li>
+                          <li><a href="">교육신청</a></li>
+                          <li><a href="">신청확인</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">학술정보큐레이션</a>
+                        <ul>
+                          <li><a href="">학술연구정보서비스(SICS)</a></li>
+                          <li><a href="">국내외 학위논문 이용</a></li>
+                          <li><a href="">연구 지원 강의(KOCW)</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">논문 작성가이드</a>
+                        <ul>
+                          <li><a href="">논문작성가이드</a></li>
+                          <li><a href="">오픈 엑세스 출판 지원</a></li>
+                          <li><a href="">표절예방 및 연구윤리</a></li>
+                          <li><a href="">연구평가도구</a></li>
+                          <li><a href="">학위논문 제출</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">지정도서</a>
+                        <ul>
+                          <li><a href="">학과별 지정도서 안내</a></li>
+                          <li><a href="">학과별 지정도서 검색</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="sitemap_title" href="">서비스</a>
+                    <ul>
+                      <li>
+                        <a href="">자료이용</a>
+                        <ul>
+                          <li><a href="">희망도서신청</a></li>
+                          <li><a href="">타 대학 자료대출 서비스</a></li>
+                          <li><a href="">원문복사 서비스</a></li>
+                          <li><a href="">대충자료 배달 서비스</a></li>
+                          <li><a href="">업무시간 외 대출 서비스</a></li>
+                          <li><a href="">서가에 없는 도서 찾기</a></li>
+                          <li><a href="">신착자료 알림 서비스</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">학술정보큐레이션</a>
+                        <ul>
+                          <li><a href="">타 기관 열람 의뢰서</a></li>
+                          <li><a href="">서동도협 출입증 발급 신청</a></li>
+                          <li><a href="">그룹스터디룸(집현전)</a></li>
+                          <li><a href="">모바일 이용증</a></li>
+                          <li><a href="">복사/인쇄/팩스</a></li>
+                          <li><a href="">유/무선 인터넷</a></li>
+                          <li><a href="">U서비스시스템</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="sitemap_title" href="">도서관 안내</a>
+                    <ul>
+                      <li>
+                        <a href="">도서관 소개</a>
+                        <ul>
+                          <li><a href="">개요/연혁</a></li>
+                          <li><a href="">규정</a></li>
+                          <li><a href="">조직</a></li>
+                          <li><a href="">역대관장</a></li>
+                          <li><a href="">도서관 갤러리</a></li>
+                          <li><a href="">도서관 안내책자</a></li>
+                          <li><a href="">도서관 통계</a></li>
+                          <li><a href="">찾아오시는 길</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">도서관 이용안내</a>
+                        <ul>
+                          <li><a href="">도서관 일정</a></li>
+                          <li><a href="">층별안내/이용시간</a></li>
+                          <li><a href="">대출/반납/연장/예약</a></li>
+                          <li><a href="">연체/분실변상</a></li>
+                          <li><a href="">이용자별 서비스</a></li>
+                          <li><a href="">방문/견학/촬영 안내</a></li>
+                          <li><a href="">장애인 지원 안내</a></li>
+                          <li><a href="">자료 기증 안내</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">게시판</a>
+                        <ul>
+                          <li><a href="">공지사항</a></li>
+                          <li><a href="">FAQ</a></li>
+                          <li><a href="">문의 및 건의하기</a></li>
+                          <li><a href="">분실물 찾기</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="sitemap_title" href="">나의 도서관</a>
+                    <ul>
+                      <li>
+                        <a href="">자료이용</a>
+                        <ul>
+                          <li><a href="">대출현황 조회/연장</a></li>
+                          <li><a href="">예약현황 조회/취소</a></li>
+                          <li><a href="">희망도서</a></li>
+                          <li><a href="">타 대학 자료대출</a></li>
+                          <li><a href="">원문복사</a></li>
+                          <li><a href="">대출자료 배달</a></li>
+                          <li><a href="">업무시간 외 대출</a></li>
+                          <li><a href="">보존서고 도서 신청</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">개인화 서비스</a>
+                        <ul>
+                          <li><a href="">나의 통계</a></li>
+                          <li><a href="">AI 큐레이션</a></li>
+                          <li><a href="">나의 서재</a></li>
+                          <li><a href="">나의 서평</a></li>
+                          <li><a href="">나의 마일리지</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="">내정보</a>
+                        <ul>
+                          <li><a href="">개인공지사항</a></li>
+                          <li><a href="">개인정보관리</a></li>
+                          <li><a href="">ID/PW 찾기</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <ul class="footer_site_wrapper">
+              <li class="relate_site">
+                <a href="">관련 사이트</a>
+                <ul>
+                  <li><a href="">RISS</a></li>
+                  <li><a href="">ScienceON</a></li>
+                  <li><a href="">외국학술지 지원센터(FRIC)</a></li>
+                  <li><a href="">국립중앙도서관</a></li>
+                  <li><a href="">국회도서관</a></li>
+                  <li><a href="">KOCW</a></li>
+                </ul>
+              </li>
+              <li class="family_site">
+                <a href="">커뮤니티</a>
+                <ul class="family_site_box">
+                  <li><a href="">광운대학교</a></li>
+                  <li><a href="">종합정보서비스(KLAS)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_info">
+          <div class="footer_info_inner">
+            <div class="footer_info_txt">
+              <ul class="footer_list">
+                <li class="privacy">개인정보처리방침</li>
+                <li>이메일수집거부</li>
+              </ul>
+              <address>
+                서울시 노원구 광운로 20 (월계동 447-1) 광운대학교
+                80주년기념관(L층,1층)(01897) ☎ 02-940-5066,5268
+              </address>
+              <p>
+                Copyright ⓒ 2024 Kwangwoon University Central Library. All
+                rights reserved.
+              </p>
+            </div>
+            <div class="footer_logo">
+              <img src="./img/footer_logo.png" alt="kwangwoon_logo" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
