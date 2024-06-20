@@ -16,7 +16,7 @@ detailMenuLists.forEach((menuList) => {
 });
 
 const topMenus = document.querySelectorAll(".top_menu > li > a");
-
+const main = document.querySelector("main");
 topMenus.forEach((topMenu) => {
   topMenu.addEventListener("click", (e) => {
     e.preventDefault();
@@ -28,7 +28,7 @@ topMenus.forEach((topMenu) => {
       detailMenuBox.classList.remove("active");
     });
     targetItem.classList.add("active");
-    header_bot.classList.add("shadow");
+    main.classList.add("bgOpacity");
   });
   header.addEventListener("mouseleave", (e) => {
     e.preventDefault();
@@ -38,13 +38,13 @@ topMenus.forEach((topMenu) => {
     targetItems.forEach((targetItem) => {
       targetItem.classList.remove("active");
     });
-
-    header_bot.classList.remove("shadow");
+    main.classList.remove("bgOpacity");
   });
 });
 
 //header fix
 const headerBottom = document.querySelector(".header_bot");
+const content1 = document.querySelector("#content1");
 
 let scrollNum = 0;
 let documentHeight = 0;
@@ -53,8 +53,10 @@ window.addEventListener("scroll", () => {
   scrollNum = window.scrollY;
   if (scrollNum > 94) {
     headerBottom.classList.add("scroll");
+    content1.style.paddingTop = "91.67px";
   } else {
     headerBottom.classList.remove("scroll");
+    content1.style.paddingTop = "0px";
   }
 });
 // search
@@ -217,7 +219,7 @@ fetch(url)
     let isPaused = false;
 
     const BookSlider = (i) => {
-      result.style.left = `${i * -20}%`;
+      result.style.transform = `translateX(${i * -286.8}px)`;
       result.classList.add("animated");
       BookCurrentIndex = i;
     };
